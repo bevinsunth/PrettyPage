@@ -1,5 +1,5 @@
 ﻿using PrettyPage.Domain.Contracts;
-using PrettyPage.Entities.Models;
+using PrettyPage.Domain.Entities;
 using System.Collections.Generic;
 
 namespace PrettyPage.DataAccess.Repositories

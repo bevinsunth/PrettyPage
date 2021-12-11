@@ -3,7 +3,7 @@ using PrettyPage.Domain.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using HomePageEntity = PrettyPage.Entities.Models.HomePage;
+using HomePageEntity = PrettyPage.Domain.Entities.HomePage;
 
 namespace PrettyPage.Services
 {

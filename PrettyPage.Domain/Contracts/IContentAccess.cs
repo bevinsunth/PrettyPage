@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using PrettyPage.Entities.Models;
+using PrettyPage.Domain.Entities;
 
 namespace PrettyPage.Domain.Contracts
 {

@@ -22,7 +22,6 @@ namespace Projects.Controllers
 
         // GET: api/<PrettyPageController>
         [HttpGet]
-        [Route("/homepage")]
         public HomePage Get()
         {
             return _homePageService.GetContent() ;

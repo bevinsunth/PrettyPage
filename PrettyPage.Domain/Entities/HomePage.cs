@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace PrettyPage.Entities.Models
+namespace PrettyPage.Domain.Entities
 {
     //Entity Model Goes Here 
     public class HomePage
