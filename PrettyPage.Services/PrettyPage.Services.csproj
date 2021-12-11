@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TinyMapper" Version="3.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PrettyPage.Domain\PrettyPage.Domain.csproj" />
+    <ProjectReference Include="..\PrettyPage.Entities\PrettyPage.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

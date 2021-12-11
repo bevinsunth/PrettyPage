@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using PrettyPage.DataAccess.Repositories;
+using PrettyPage.Domain.Contracts;
+using PrettyPage.Services;
 
 namespace Projects
 {
@@ -32,6 +35,9 @@ namespace Projects
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Projects", Version = "v1" });
             });
+
+            services.AddSingleton<IContentAccessRepository, ContentAccessRepository>();
+            services.AddTransient<IHomePageService, HomePageService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
